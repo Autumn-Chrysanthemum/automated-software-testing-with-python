@@ -45,3 +45,24 @@ print(winning_numbers.union(your_lottery_numbers))
 print(winning_numbers.difference(your_lottery_numbers))
 
 
+print("---"*20)
+
+l = ["Bob", "Rolf", "Anne"]
+t = ("Bob", "Rolf", "Anne")
+s = {"Bob", "Rolf", "Anne"}
+
+print (l[0])
+print (t[2])
+
+l[0] = "Smith"
+print(l)
+
+l.append("Natalia")
+print(l)
+
+l.remove("Natalia")
+print(l)
+
+s.add("Smith")
+s.add("Smith")
+print(s)
